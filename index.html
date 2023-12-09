@@ -65,13 +65,54 @@
           </div>
         </div>
       </div>
-        
-  
+
+      <div class="row justify-content-center">
+       
+          One centered column
+          <nav>
+            <div class="nav" id="MyTab" role="tablist">
+              <button 
+                class="nav-link active" 
+                id="nav-home-tab" 
+                data-bs-toggle="tab" 
+                data-bs-target="#nav-home" 
+                type="button" 
+                role="tab" 
+                aria-controls="nav-home" 
+                aria-selected="true"
+              >
+                Home <i class="bi bi-menu-button"></i>
+             </button>
+         
+              <button 
+                  class="nav-link" 
+                  id="nav-contact-tab" 
+                  data-bs-toggle="tab" 
+                  data-bs-target="#nav-contact" 
+                  type="button" 
+                  role="tab" 
+                  aria-controls="nav-contact" 
+                  aria-selected="false"
+              >
+                  Contact <i class="bi bi-menu-button"></i>
+              </button>
+            </div>
+            
+          </nav>
+       
+      </div>
+
+      <div class="row justify-content-center tab-content" id="nav-tabContent">
+       
+        <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">Grid</div>
+        <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0">Card</div>
+       
+      </div>
 
 
+      
 
-
-
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   </body>
 </html>
